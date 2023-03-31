@@ -1,0 +1,13 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class QuitSceneLoader : MonoBehaviour
+{
+    public void QuitGame()
+    {
+        Application.Quit();
+        Debug.Log("Quit!");
+    }
+}
+
