@@ -8,9 +8,19 @@ public class TriggerDoor : DetectionZone
 
     Animator animator;
 
-    void start()
+    void Start()
     {
-        if(detectedObjs.Count > 0)
+        animator = GetComponent<Animator>();
+        //if (animator != null)
+        {
+            Debug.Log("foobar\n");
+        }
+    }
+
+    void Update()
+    {
+
+        if (detectedObjs.Count > 0)
         {
             animator.SetBool(DoorOpenAnimatorParamName, true);
         }
