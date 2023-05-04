@@ -12,9 +12,9 @@ public class Monster : DamagePlayer
 
     private bool attacking;
 
-    private void update()
+    private void Update()
     {
-        if (attacking)
+        if (attacking);
             //transform.
     }
 }
