@@ -3291,9 +3291,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.48, y: -3.5036, z: 0}
   m_LocalScale: {x: 0.4791, y: 0.4791051, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 2080254499}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &950134947
 BoxCollider2D:
@@ -3336,12 +3337,12 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 3
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!1 &962573700
 GameObject:
   m_ObjectHideFlags: 0
@@ -6028,11 +6029,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2080254496}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.643, y: -3.1095, z: -10}
-  m_LocalScale: {x: 3.43816, y: 1.79071, z: 1.30233}
+  m_LocalPosition: {x: -0.34022146, y: 0.82257515, z: -10}
+  m_LocalScale: {x: 7.1762886, y: 3.7376142, z: 1.30233}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 950134946}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &431941208395671627
 PrefabInstance:
@@ -6167,6 +6168,10 @@ PrefabInstance:
     - target: {fileID: 2118013509286656834, guid: ad97d8e9a8bf8f8419de4e6b0cd06501, type: 3}
       propertyPath: m_Name
       value: Wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118013509286656834, guid: ad97d8e9a8bf8f8419de4e6b0cd06501, type: 3}
+      propertyPath: m_TagString
+      value: Platform
       objectReference: {fileID: 0}
     - target: {fileID: 2118013509286656835, guid: ad97d8e9a8bf8f8419de4e6b0cd06501, type: 3}
       propertyPath: m_RootOrder
