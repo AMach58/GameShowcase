@@ -8,6 +8,7 @@ public class Health : MonoBehaviour
     [SerializeField] private float startingHealth;
     public float currentHealth { get; private set; }
     public string sceneName;
+    public float deaths { get; }
 
     private void Awake()
     {
