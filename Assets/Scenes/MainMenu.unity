@@ -603,6 +603,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
+  - {fileID: 2045285210}
   - {fileID: 1383428454}
   - {fileID: 572029457}
   - {fileID: 426246595}
@@ -906,7 +907,7 @@ Transform:
   - {fileID: 1585981807}
   - {fileID: 1695428327}
   m_Father: {fileID: 267902442}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &426246596
 MonoBehaviour:
@@ -1159,7 +1160,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 267902442}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -1559,7 +1560,7 @@ Transform:
   - {fileID: 1918998145}
   - {fileID: 667560480}
   m_Father: {fileID: 267902442}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &921745588
 GameObject:
@@ -1801,11 +1802,11 @@ MonoBehaviour:
   m_text: 'Jenna- Coder/Background Artist
 
 
-    Ben- Character Design/Main Artist
+    Ben- Character Design
 
 
-    An-
-    Coder/Sound effects
+    An- Coder/Sound
+    effects
 
 
     Oscar- Sound Design '
@@ -2050,7 +2051,7 @@ Transform:
   - {fileID: 929744170}
   - {fileID: 1293642239}
   m_Father: {fileID: 267902442}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1093889832
 GameObject:
@@ -2677,7 +2678,7 @@ Transform:
   m_LocalScale: {x: 1.4826066, y: 1.4826066, z: 1.4826066}
   m_Children: []
   m_Father: {fileID: 267902442}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1414213577
 GameObject:
@@ -3519,14 +3520,14 @@ RectTransform:
   m_GameObject: {fileID: 1800654333}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 98.97118}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_Children: []
   m_Father: {fileID: 426246595}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -146.28204, y: 205.18005}
+  m_AnchoredPosition: {x: -126, y: 272}
   m_SizeDelta: {x: 377.0779, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1800654335
@@ -3551,15 +3552,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'PHANTOM ESCAPE '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0b4e4692da08841489aabadcbfcef187, type: 2}
+  m_sharedMaterial: {fileID: -291346037304099152, guid: 0b4e4692da08841489aabadcbfcef187, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4284878954
-  m_fontColor: {r: 0.41509432, g: 0.064613745, b: 0.3985275, a: 1}
+    rgba: 4278190248
+  m_fontColor: {r: 0.6603774, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -4112,7 +4113,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1978667867
 GameObject:
@@ -4351,9 +4352,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2045285209}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.54833984, y: -0.05822754, z: -0.4296646}
+  m_LocalPosition: {x: -959.45166, y: -600.0582, z: -0.4296646}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 267902442}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
