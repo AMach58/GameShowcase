@@ -8,6 +8,8 @@ TagManager:
   - Character Camera
   - Door
   - Walls
+  - CheckPoint
+  - spikes
   layers:
   - Default
   - TransparentFX
