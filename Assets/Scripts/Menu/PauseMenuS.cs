@@ -18,7 +18,7 @@ public class PauseMenuS : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if(Input.GetKeyDown(KeyCode.LeftControl))
         {
             if(Paused)
             {
@@ -48,6 +48,8 @@ public class PauseMenuS : MonoBehaviour
     }
     public void MainMenuButton()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex -1);
+        SceneManager.LoadScene("MainMenu");
+           // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 0);
     }
+   
 }
