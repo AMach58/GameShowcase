@@ -11,6 +11,9 @@ public class PlayerMovements : MonoBehaviour
 
     private float dirX = 0f;
 
+    public Transform KeyFollowPoint;
+    public Key followingKey;
+
     // Start is called before the first frame update
     private void Start()
     {
