@@ -6913,6 +6913,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   theSR: {fileID: 846145227}
   doorOpenSprite: {fileID: 21300000, guid: ed239185c9cbec84d85a68a44e18cc03, type: 3}
+  keys: 0
   doorOpen: 0
   waitingToOpen: 0
 --- !u!1001 &855991652
@@ -10946,6 +10947,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   volumeSlider: {fileID: 1105799920}
   volumeTextUI: {fileID: 722768850}
+  myCamera: {fileID: 0}
 --- !u!1 &1199618185
 GameObject:
   m_ObjectHideFlags: 0
@@ -12022,7 +12024,7 @@ MonoBehaviour:
   m_LightType: 4
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
-  m_Color: {r: 0.94108224, g: 0.9395693, b: 0.9622642, a: 1}
+  m_Color: {r: 0.09803922, g: 0.09019608, b: 0.20784314, a: 1}
   m_Intensity: 1
   m_LightVolumeOpacity: 0
   m_ApplyToSortingLayers: 00000000
