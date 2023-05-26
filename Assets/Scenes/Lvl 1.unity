@@ -5711,7 +5711,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 717005980}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5, y: 0.8, z: -43.71267}
+  m_LocalPosition: {x: 0.06, y: -0.33, z: -43.71267}
   m_LocalScale: {x: 4.5003085, y: 4.5003085, z: 9.000617}
   m_Children: []
   m_Father: {fileID: 1731557120}
@@ -10313,6 +10313,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   theSR: {fileID: 1357868079}
   doorOpenSprite: {fileID: 21300000, guid: ed239185c9cbec84d85a68a44e18cc03, type: 3}
+  keys: 0
   doorOpen: 0
   waitingToOpen: 0
 --- !u!212 &1357868079 stripped
@@ -13173,7 +13174,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 7
-  m_Sprite: {fileID: 21300000, guid: 132f5e0a58c91ac40bdcb85b4692d3e8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2fda98f8431aa5b44a05888b8d186597, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -13193,7 +13194,7 @@ Transform:
   m_GameObject: {fileID: 1731557116}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -8.21, y: -0.1, z: 0}
-  m_LocalScale: {x: 0.06928655, y: 0.06928655, z: 0.06928655}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.06928655}
   m_Children:
   - {fileID: 717005981}
   m_Father: {fileID: 0}
@@ -14157,6 +14158,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   theSR: {fileID: 1819438764}
   doorOpenSprite: {fileID: 21300000, guid: ed239185c9cbec84d85a68a44e18cc03, type: 3}
+  keys: 0
   doorOpen: 0
   waitingToOpen: 0
 --- !u!212 &1819438764 stripped
@@ -14455,6 +14457,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   volumeSlider: {fileID: 1503190981}
   volumeTextUI: {fileID: 1024635923}
+  myCamera: {fileID: 0}
 --- !u!1001 &1875506177
 PrefabInstance:
   m_ObjectHideFlags: 0
